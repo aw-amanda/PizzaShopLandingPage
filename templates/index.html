@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Shop</title>
+    <link rel="icon" type="image/x-icon" href="/static/Logo.ico">
+    <link rel="stylesheet" href="/static/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo"><a href="#home"><img src="/static/Logo.png"></a></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#service-area">Service Area</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="full-height">
+            <h1>The Pizza Place</h1>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-grid">
+            <div class="menu-item"><img src="/static/Menu.png" alt="Pizza 1"></div>
+            <div class="menu-item"><img src="/static/Menu.png" alt="Pizza 2"></div>
+            <div class="menu-item"><img src="/static/Menu.png" alt="Pizza 3"></div>
+            <div class="menu-item"><img src="/static/Menu.png" alt="Pizza 4"></div>
+            <div class="menu-item"><img src="/static/Menu.png" alt="Pizza 5"></div>
+            <div class="menu-item"><img src="/static/Menu.png" alt="Pizza 6"></div>
+        </div>
+    </section>
+
+    <!-- Service Area Section -->
+    <section id="service-area">
+        <h2>Service Area</h2>
+        <div class="service-content">
+            <h3>We proudly deliver to these areas:</h3>
+            <ul>
+                <li>Downtown</li>
+                <li>Uptown</li>
+                <li>Midtown</li>
+            </ul>
+            <div class="map-container">
+                <a href="https://www.google.com/maps" target="_blank">
+                    <img src="/static/Map.jpg" alt="Service Area Map">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <div class="about-p">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+            <img src="/static/About1.jpg" alt="About Us Image">
+        </div>
+        <div class="about-content">
+            <img src="/static/About2.jpg" alt="About Us Image">
+            <div class="about-p">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Pizza Place. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
